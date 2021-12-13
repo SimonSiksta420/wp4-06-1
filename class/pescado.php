@@ -1,6 +1,6 @@
 <?php
 
-    class Pescado extends Animal
+    class Pescado extends Mascotas
     {
         private bool $isScaly;
 

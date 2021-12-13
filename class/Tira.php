@@ -1,6 +1,6 @@
 <?php
 
-    class Dogs extends Animal
+    class Tira extends Mascotas
     {
         private bool $Brown;
 

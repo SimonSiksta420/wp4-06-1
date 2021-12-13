@@ -1,9 +1,12 @@
 <?php
+
 require_once "class/animals.php";
 require_once "class/pescado.php";
 require_once "class/Simecek.php";
 require_once "class/Tira.php";
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,9 +19,9 @@ require_once "class/Tira.php";
 
 <?php 
 
-    $animals[0] = new Pescados("Steiner", 0, True);
-    $animals[1] = new Simeceks("Simecek", 4, True);
-    $animals[2] = new Tiras("Tira", 4, True);
+    $animals[0] = new Pescado("Steiner", 0, True);
+    $animals[1] = new Simecek("Simecek", 4, True);
+    $animals[2] = new Tira("Tira", 4, True);
 
     foreach ($animals as $animal) {
         

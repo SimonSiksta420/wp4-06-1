@@ -1,6 +1,6 @@
 <?php
 
-    class Ostrichs extends Animal
+    class Simecek extends Mascotas
     {
         private bool $isCute;
 
