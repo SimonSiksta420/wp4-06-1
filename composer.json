@@ -1,0 +1,8 @@
+{
+    "name": "predator/wp4-06-1",
+    "autoload": {
+        "classmap": [
+            "classes/"
+        ]
+    }
+}

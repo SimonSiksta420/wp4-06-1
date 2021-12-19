@@ -1,9 +1,6 @@
 <?php
 
-require_once "class/animals.php";
-require_once "class/pescado.php";
-require_once "class/Simecek.php";
-require_once "class/Tira.php";
+require_once "vendor/autoload.php"
 
 ?>
 
